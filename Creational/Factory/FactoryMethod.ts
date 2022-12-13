@@ -72,7 +72,7 @@ class ABInsuranceFactory extends InsuranceFactory {
 const tfInsuranceFactory = new TFInsuranceFactory();
 const ins = tfInsuranceFactory.createInsurance();
 
-////////////////////////////////////////////////////////////////////////////////////
+// Using TypeScript "General Class Type"
 
 const INSURANCE_TYPE = {
   tf: TFInsurance,
